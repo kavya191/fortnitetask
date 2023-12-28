@@ -1,0 +1,48 @@
+.main_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 1rem;
+}
+.card__style{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    
+}
+.imgcard{
+    width: 35rem;
+}
+h4{
+    padding: 6rem;
+}
+@media screen and (max-width: 650px) and (min-width:250px) {
+    .main_home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 1rem;
+}
+.card__style{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    
+}
+.imgcard{
+    width: 35rem;
+}
+h4{
+    font-size: 1rem;
+}
+}
